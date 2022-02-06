@@ -43,6 +43,7 @@
 		009A5FE327B0659300F48375 /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009A5FDF27B0659300F48375 /* PeopleViewModel.swift */; };
 		009A5FE427B0659300F48375 /* RoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009A5FE027B0659300F48375 /* RoomViewModel.swift */; };
 		009A5FE527B0659300F48375 /* PeopleCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009A5FE127B0659300F48375 /* PeopleCellViewModel.swift */; };
+		009A5FE727B0669F00F48375 /* HomeListUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009A5FE627B0669F00F48375 /* HomeListUITest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,7 @@
 		009A5FDF27B0659300F48375 /* PeopleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
 		009A5FE027B0659300F48375 /* RoomViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomViewModel.swift; sourceTree = "<group>"; };
 		009A5FE127B0659300F48375 /* PeopleCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleCellViewModel.swift; sourceTree = "<group>"; };
+		009A5FE627B0669F00F48375 /* HomeListUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListUITest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 			children = (
 				009A5F9427B0640900F48375 /* Directory_AppUITests.swift */,
 				009A5F9627B0640900F48375 /* Directory_AppUITestsLaunchTests.swift */,
+				009A5FE627B0669F00F48375 /* HomeListUITest.swift */,
 			);
 			path = "Directory AppUITests";
 			sourceTree = "<group>";
@@ -474,6 +477,7 @@
 			files = (
 				009A5F9727B0640900F48375 /* Directory_AppUITestsLaunchTests.swift in Sources */,
 				009A5F9527B0640900F48375 /* Directory_AppUITests.swift in Sources */,
+				009A5FE727B0669F00F48375 /* HomeListUITest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
