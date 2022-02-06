@@ -13,7 +13,7 @@ protocol RoomServiceProtocol {
 
 class RoomService: RoomServiceProtocol {
     func getRoomList(completion: @escaping (Bool, Rooms?, String?) -> ()) {
-        HttpRequestHelper().GET(url: "https://61e947967bc0550017bc61bf.mockapi.io/api/v1/rooms", params: ["": ""], httpHeader: .application_json) { success, data in
+        HttpRequestHelper().GET(url: "\(basedefaultUrl)\("rooms")", params: ["": ""], httpHeader: .application_json) { success, data in
             if success {
                 do {
                     let model = try JSONDecoder().decode(Rooms.self, from: data!)
