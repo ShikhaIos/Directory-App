@@ -1,0 +1,11 @@
+/* 
+  Colors.strings
+  Directory
+
+  Created by shikha on 05/02/22.
+  
+*/
+
+"colorPrimary" = "#C40202";
+"navigationBarTitleTextAttributeColor" = "#ffffff";
+"navigationBarTintColor" = "#ffffff";
